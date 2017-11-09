@@ -55,7 +55,6 @@ public class AddSshKeyForGitHubTest {
     loader.waitOnClosed();
     notificationsPopupPanel.waitProgressPopupPanelClose();
     loader.waitOnClosed();
-    Thread.sleep(120000);
     menu.runCommand(
         TestMenuCommandsConstants.Profile.PROFILE_MENU,
         TestMenuCommandsConstants.Profile.PREFERENCES);
